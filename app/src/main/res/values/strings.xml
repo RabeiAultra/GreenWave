@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Green Wave</string>
+
+
+    <!-- activities name -->
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="conpassword">Confirm Password</string>
+    <string name="email">E-mail</string>
+    <string name="username">Username</string>
+    <string name="signup">SignUp</string>
+    <string name="album">Albums</string>
+    <string name="setting">Setting</string>
+    <string name="favorites">Favorites</string>
+    <string name="profile">Profile</string>
+    <string name="song">Song</string>
+    <string name="songs">Songs</string>
+
+    <!-- activities name -->
+    <string name="title_activity_song">Play Music</string>
+    <string name="title_activity_setting">Settings</string>
+    <string name="title_activity_profile">MyPofile</string>
+    <string name="title_activity_favorites">Favorites</string>
+    <string name="title_activity_songs">Songs</string>
+
+
+
+    <!-- URl for go to sing up -->
+    <string name="create"><u>Create a new accuont.</u></string>
+    <string name="action_settings">Settings</string>
+    <string name="green">Green</string>
+    <string name="wave">Wave</string>
+    <string name="user_email">user email</string>
+    <string name="song_image">Song Image</string>
+    <string name="notification">Notifications</string>
+    <string name="logout">Logout</string>
+    <string name="favorites_list">Favorites list</string>
+    <string name="update">Update</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+
+
+
+</resources>

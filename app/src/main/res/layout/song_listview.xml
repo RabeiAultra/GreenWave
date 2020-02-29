@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hover_listview">
+
+    <TextView
+        android:id="@+id/song_id"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="TextView"
+        android:textSize="0sp"
+        app:layout_constraintBottom_toBottomOf="@+id/num_of_songs"
+        app:layout_constraintLeft_toLeftOf="@+id/num_of_songs"
+        app:layout_constraintRight_toLeftOf="@+id/num_of_songs"
+        app:layout_constraintTop_toBottomOf="@+id/num_of_songs"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/listPressed"
+        android:paddingLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginLeft="100dp"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toRightOf="@+id/img1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img1" />
+
+    <TextView
+        android:id="@+id/period_of_songs"
+        android:layout_width="150dp"
+        android:layout_height="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="7dp"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/song_name"
+        app:layout_constraintRight_toRightOf="@+id/song_name"
+        app:layout_constraintTop_toBottomOf="@+id/song_name" />
+
+</android.support.constraint.ConstraintLayout>

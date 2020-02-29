@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#49b302</color>
+    <color name="black">#1c1c1c</color>
+    <color name="white">#fff</color>
+    <color name="gray">#848484</color>
+
+
+    <color name="colorMedia">#000000</color>
+    <color name="colorPrimary">#49b302</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPressed">#3b9300</color>
+    <color name="mediaPresses">#585555</color>
+    <color name="listPressed">#2d2b2b</color>
+    <color name="White">#ffffff</color>
+</resources>
